@@ -6,7 +6,7 @@ class Config:
     SECRET_KEY='FABIENCLASSIC'
     TESTING = True
     WTF_CSRF_ENABLED = False
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'sweepsouth.sqlite') #"postgresql+psycopg2://postgres:1234@localhost/sweepsouth"
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'sweepsouth.sqlite') #"postgresql+psycopg2://postgres:1234@localhost/sweepsouth" =
     MAIL_SERVER ='smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS =True
